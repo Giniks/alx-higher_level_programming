@@ -2,7 +2,7 @@
 def add_arg(argv):
     n = len(argv) - 1
     if n == 0:
-        print("{:d}".format(n))
+        print("0")
         return
     else:
         i = 1
@@ -10,7 +10,7 @@ def add_arg(argv):
         while i <= n:
             add += int(argv[i])
             i += 1
-            print("{:d}".format(add))
+            print(add)
 
 
 if __name__ == "__main__":
