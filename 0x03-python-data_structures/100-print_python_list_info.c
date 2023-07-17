@@ -1,4 +1,4 @@
-#include <python.h>
+#include <Python.h>
 /**
  * print_python_list_info - prints basic information about python list
  * @p: A PyObject list
@@ -18,7 +18,7 @@ void print_python_list_info(PyObject *p)
 	{
 		printf("Element %d :", i);
 
-		obj = PyList_GetItemp(p, i);
+		obj = PyList_GetItem(p, i);
 		printf("%s\n", Py_TYPE(obj)->tp_name);
 	}
 }
