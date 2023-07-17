@@ -29,7 +29,7 @@ void reverse_listint(listint_t **head)
  *
  * Return: 1 if it is poditive, 0 if it is not
  */
-int is_palindrome(listint_t **head);
+int is_palindrome(listint_t **head)
 {
 	listint_t *slow = *head, *fast = *head, *temp = *head, *dup NULL;
 
