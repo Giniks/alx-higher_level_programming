@@ -4,14 +4,14 @@ def safe_print_division(a, b):
     """Divides 2 integer and print the result.
 
     Args:
-        a: Nominator.
-        b: Denominator.
+        a (int): Nominator.
+        b (int): Denominator.
 
     Returns:
         The value of division otherwise none.
     """
     try:
-        div = a/b
+        div = a / b
     except (TypeError, ZeroDivisionError):
         div = None
     finally:
