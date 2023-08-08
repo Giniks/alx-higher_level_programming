@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """Defines a locked class"""
 
+
 class LockedClass:
-    """Prevent users from creating instances from a new locked class attributes.
+    """Prevent user from creating instances from a new locked class attribute
     For anything but for attribute called 'First name".
     """
 
