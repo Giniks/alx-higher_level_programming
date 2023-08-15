@@ -1,4 +1,4 @@
-l#!/usr/bin/python3
+#!/usr/bin/python3
 """This defines a class Rectangle that inherits from BaseGeometry."""
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
