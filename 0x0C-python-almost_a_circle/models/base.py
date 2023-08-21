@@ -25,7 +25,7 @@ class Base:
         """
         if id is not None:
             self.id = id
-        else:q
+        else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
 
@@ -86,7 +86,7 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
-        """This returns a list of classes instantiated from a file of JSON strings.
+        """Return a list of classes instantiated from a file of JSON strings.
 
         Reads from `<cls.__name__>.json`.
 
@@ -121,7 +121,7 @@ class Base:
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 for obj in list_objs:
                     writer.writerow(obj.to_dictionary())
-    
+
     @classmethod
     def load_from_file_csv(cls):
         """Return a list of classes instantiated from a CSV file.
