@@ -47,3 +47,23 @@ You can refer to the Function Prototypes section for details on each task's func
 
 Usage:
 To use any of the functions or classes defined in this project, you can import the respective JavaScript file into your application.
+
+Task 11:
+100-map.js:  Contains a JavaScript function to mports an array from `100-data.js` and computes a new array using the `map` function. In the new array, each value is equal to the value of the initial list multiplied by its index in the list. It prints both the initial list and the new list. Use this command "./100-map.js command to run the script,. 
+
+TASK12: 
+101-sorted.js: Contains JavaScript function  that imports a dictionary of occurrences by user id from `101-data.js` and computes a new dictionary of user ids by occurrence. In the new dictionary, each key represents the number of occurrences, and the corresponding value is a list of user ids. The script prints the new dictionary at the end. Use ./101-sorted.js command  to run the script. 
+
+TASK13: 
+102-concat.js: Contains a JavaScript that concatenates the contents of two source files into a destination file. It takes three arguments: the file path of the first source file, the file path of the second source file, and the file path of the destination file. It is used to merge the content of two files.
+Use ./102-concat.js fileA fileB fileC command to run the script.
+
+Acknowledgement
+
+Special thanks to ALX community for their invaluable education and support.
+
+Authour
+
+Name: Ginika Elizabeth Nna
+
+Email: elizabethginika9@gmail.com
