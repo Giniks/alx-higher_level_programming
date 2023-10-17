@@ -45,3 +45,13 @@ Advanced Task: 102-add me maybe.js: A JavaScript function that increments and ca
 Advance Task: 103-object fct.js: A JavaScript script that adds a new function (incr) to increment the integer value of an object (myObject).
 
 This comprehensive guide will help you understand each script's purpose and how to use them effectively for various JavaScript tasks.
+
+Acknowledgement
+
+Special thanks to ALX community for their invaluable education and tech support.
+
+Author
+
+Name: Ginika Elizabeth Nna
+
+Email: elizabethginika9@gmail.com
