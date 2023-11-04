@@ -4,17 +4,16 @@ This python script list 10 most recent commit of a repo
 Using Github API
 """
 
-import requests
 import sys
+import requests
 
-if __name__ == "__main":
-    repo_name = sys.argv[1]
-    owner_name = sys.argv[2]
 
-    url = f'https://api.github.com/repos/{owner_name}/{repo_name}/commits'
+if __name__ == "__main__":
+    url = "https://api.github.com/repos/{}/{}/commits".format(
+        sys.argv[2], sys.argv[1])
 
-    response = requests.get(url)
-    commits = response.json()
+    r = requests.get(url)
+    commits = r.json()
     try:
         for i in range(10):
             print("{}: {}".format(
