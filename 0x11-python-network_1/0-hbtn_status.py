@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This is a python script that summons https://alx-intranet.hbtn.io/status using urllib
+Summons https://alx-intranet.hbtn.io/status using urllib
 And displays information about the response body.
 """
 
@@ -14,4 +14,4 @@ if __name__ == "__main__":
         print("Body response:")
         print("\t- type: {}".format(type(body)))
         print("\t- content: {}".format(body))
-        print("\t- utf8 content: {}".format(body.decode("utf-8")))        
+        print("\t- utf8 content: {}".format(body.decode("utf-8")))
