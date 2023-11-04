@@ -6,26 +6,20 @@ With the letter as parameter and process response
 """
 
 
-import requests
 import sys
+import requests
 
-if __name__ == "__main":
-    if len(sys.argv) < 2:
-        q = ""
-    else:
-        q = sys.argv[1]
 
-    url = 'http://0.0.0.0:5000/search_user'
-    data = {'q': q}
+if __name__ == "__main__":
+    letter = "" if len(sys.argv) == 1 else sys.argv[1]
+    payload = {"q": letter}
 
-    r = requests.post(url, data=data)
-
+    r = requests.post("http://0.0.0.0:5000/search_user", data=payload)
     try:
-        json_data = r.json()
-        if json_data:
-            print(f"[{json_data['id']}] {json_data['name']}")
-        else:
+        response = r.json()
+        if response == {}:
             print("No result")
+        else:
+            print("[{}] {}".format(response.get("id"), response.get("name")))
     except ValueError:
         print("Not a valid JSON")
-
