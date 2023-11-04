@@ -1,9 +1,8 @@
-#!/usr/bin/pythpn3
-
 #!/usr/bin/python3
 """
-This is a Python script that takes a URL 
-Sends a request to the URL, and displays the value of the variable X-Request-Id in the response header.
+This is a Python script that takes a URL
+Sends a request to the URL
+And displays the value of the variable X-Request-Id in the response header
 """
 
 import sys
