@@ -28,7 +28,7 @@ This project is designed to provide a comprehensive understanding of how conditi
 1. **Prerequisites**: Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
 2. **Clone the Repository**: Clone this repository to your local machine using the command:
    ```bash
-   git clone https://
+   https://github.com/Giniks/alx-higher_level_programming.git
    ```
 3. **Navigate to the Project Directory**:
    ```bash
